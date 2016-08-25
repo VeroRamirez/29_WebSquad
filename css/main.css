@@ -1,6 +1,6 @@
   nav.navbar{
-	background: transparent;	
-	border: transparent;
+	background: pink;	
+	border: pink;
 }
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -13,6 +13,9 @@
   }
 .inline{
 	display: inline;
+}
+.delante{
+	z-index: 10;
 }
 /*
 nav.navbar{
@@ -28,6 +31,10 @@ nav.navbar{
 }
 .company{
 	max-width: 40%;
+}
+.distra{
+	max-width: 60%;
+	height: 150px;
 }
 .ex4 {
 	width: 30%;
@@ -47,4 +54,27 @@ nav.navbar{
 .ex4 img{ 
 	float: bottom;
 	margin: 15% 15%;
+}
+.pd-sec{
+	padding-bottom:1%;
+	padding-top:1%;
+}
+.pd-top{
+	padding-top:2%;
+}
+.blue:hover{
+  opacity:1;
+}
+
+.blue {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    max-width: 50%;
+    opacity: 0;
+}
+
+.img{
+	width:100%;
+	margin-top:5%;
 }
