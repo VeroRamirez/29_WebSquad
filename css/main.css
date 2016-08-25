@@ -1,0 +1,150 @@
+nav.navbar{
+	background: transparent;	
+	border: transparent;
+}
+
+header{
+	background-image: url("../img/header.jpg");
+	background-size: cover;
+	height: 400px;
+}
+.txt-white{
+	color:white !important;
+}
+.txt-pink{
+	color:#ff597c;
+}
+/*
+nav li a{
+	color:white !important;
+}*/
+.jumbotron{
+	background: transparent;
+	color:white;
+}
+header hr{
+	border: 2px #FF7C47 solid;
+	width: 5%;
+	border-top-color: #FF7C47 !important;
+}
+.btn{
+	background:#FF7C47;
+	color:white;
+	font-weight: bold;
+}
+.back-sec2{
+	background-color: #FF8959;
+}
+.hr-white{
+	border: 2px white solid;
+	width: 5%;
+	border-top-color: white !important;
+}
+.hr-pink{
+	border: 2px #FF7C47 solid;
+	width: 5%;
+	border-top-color: #FF7C47 !important;
+}
+h1, h2, h3{
+	font-weight: bold;
+}
+.icon{
+	color: #FF7C47;
+	font-size: 4em;
+}
+.back-img1{
+	background-image: url("../img/1.jpg");
+	background-size: cover;
+	max-width: 100%;
+	height: 300px;
+}
+.back-img2{
+	background-image: url("../img/2.jpg");
+	background-size: cover;
+	max-width: 100%;
+	height: 300px;
+}
+.back-img3{
+	background-image: url("../img/3.jpg");
+	background-size: cover;
+	max-width: 100%;
+	height: 300px;
+}
+.back-img4{
+	background-image: url("../img/4.jpg");
+	background-size: cover;
+	max-width: 100%;
+	height: 250px;
+}
+.back-img5{
+	background-image: url("../img/5.jpg");
+	background-size: cover;
+	max-width: 100%;
+	height: 250px;
+}
+.back-img6{
+	background-image: url("../img/6.jpg");
+	background-size: cover;
+	max-width: 100%;
+	height: 250px;
+}
+.opacity{
+	background: rgba(255,137,89,0.7);
+	width: 100%;
+	height: 100%;
+}
+.pd-neg{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.back-black{
+	background: black;
+}
+.pd-5{
+	padding:2%;
+}
+.pd-top2{
+	padding-top: 15%;
+}
+.pd-bottom{
+	padding-bottom: 3%;
+}
+.pd-top{
+	padding-top: 3%;
+}
+.pd-top-icon{
+	padding-top: 3%;
+}
+.btn-def{
+	border-radius: 50px;
+	background-color: white;
+	font-weight: bold;
+	color:black;
+}
+div .pink-cover{
+	background: rgba(255,137,89,0.8);
+	width: 100%;
+	height: 100%;
+	-webkit-transition:0.1;
+	opacity: 0;
+}
+div .back-img1:hover,
+div .back-img2:hover,
+div .back-img3:hover,
+div .back-img4:hover,
+div .back-img5:hover,
+div .back-img6:hover{
+	opacity: 0.5;
+}
+div.back-img1:hover div.pink-cover,
+div.back-img2:hover div.pink-cover,
+div.back-img3:hover div.pink-cover,
+div.back-img4:hover div.pink-cover,
+div.back-img5:hover div.pink-cover,
+div.back-img6:hover div.pink-cover{
+	opacity: 1;
+}
+.icon-foot{
+	color: black;
+	font-size: 4em;
+}
